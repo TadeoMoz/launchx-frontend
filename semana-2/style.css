@@ -86,16 +86,6 @@ input {
     margin-bottom: 15px;
 }
 
-.nombre {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    display: block;
-    color: rgb(85, 76, 76);
-    text-align: center;
-    padding: 10px 1px;
-    text-decoration: none;
-}
-
 /* tabla */
 
 .table-wrapper{
