@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="pokedex">
+            <div class="barra">
+                <div class="circulo">
+                    <div class="circulo4"></div>
+                </div>
+            </div>
+            <div class="infoDex">
+                <div class="displayInfo">
+
+                    <div class="displayPoke">
+                        <img src="img/pokeball.png" alt="" id="pokeImg">
+                    </div>
+    
+
+                    <div class="displayStats">
+                        <h1 id="nombre"></h1>
+                        
+                        <br>
+                        <h3>Características</h3>
+                        <div class="caracteristicas">
+                            <span>
+                                <h4 id="iden"></h4>
+                                <p>ID</p>
+                            </span>
+                            <span>
+                                <h4 id="altura"></h4>
+                                <p>Altura</p>                                
+                            </span>
+                            <span>
+                                <h4 id="peso"></h4>
+                                <p>Peso</p>    
+                            </span>
+                        </div>
+
+                        <br>                        
+                        <h3>Estadísticas</h3>
+                        <div class="barras">                            
+                            <span>
+                                <h2 id="hp"></h2>
+                                <p>Hp</p>
+                            </span>
+                            
+                            <span>
+                                <h2 id="atk"></h2>
+                                <p>Atk</p>
+                            </span>
+                            
+                            <span>
+                                <h2 id="def"></h2>
+                                <p>Def</p>    
+                            </span>
+
+                            <span>
+                                <h2 id="satk"></h2>
+                                <p>SAtk</p>
+                            </span>
+                            <span>
+                                <h2 id="sdef"></h2>    
+                                <p>SDef</p>
+                            </span>
+                            <span>
+                                <h2 id="spd"></h2>
+                                <p>Spd</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="buscador">
+                    <input type="text" placeholder="Ingrese Nombre o número" id="pokeName" name="pokeName">
+                    <input type="submit" value="Buscar pokemon" onclick="obtenerPokemon()">
+                </div>
+            </div>
+            <div class="barra2">
+                <div class="circulo2">
+                    <div class="circulo3"></div>
+                </div>
+            </div>
+        </div>
+        <!-- pokeapi.co -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
